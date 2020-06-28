@@ -5,12 +5,12 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.epiq.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
     <name>ТЕСТ. Epiquize</name>
 
     <description>
-        Сборник прикольных чатов
+        Сборник веселых и полезных чатов
     </description>
 
     <author>Tadapp</author>
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    <preference name="SplashScreenSpinnerColor" value="#F15335" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -40,17 +40,17 @@
 
 
     <platform name="android">
-        <icon src="res/android/icon/52c0b8927ad2f2c2fd0ab5bfa8782933.png" density="ldpi" />
-        <icon src="res/android/icon/550d4fef3961654b39d462977bd6a783.png" density="mdpi" />
-        <icon src="res/android/icon/a6294e9614837765d5e0e48d9d60f53b.png" density="hdpi" />
-        <icon src="res/android/icon/a2cacf63dce1cd2d451146e8cc396af8.png" density="xhdpi" />
-        <icon src="res/android/icon/0956d979639a0620d4e272d73c6e3c8c.png" density="xxhdpi" />
-        <icon src="res/android/icon/0aa07ba63e41adfe5639c260179bc9ae.png" density="xxxhdpi" />
+        <icon src="res/android/icon/b36c94f6aee22767eebb26c0cdcba454.png" density="ldpi" />
+        <icon src="res/android/icon/1e96f865e7c430e1f39442fae612eb5a.png" density="mdpi" />
+        <icon src="res/android/icon/a1408071d246be85195417bb47f82420.png" density="hdpi" />
+        <icon src="res/android/icon/86c41e1d87bbcf82451f51dc23f86777.png" density="xhdpi" />
+        <icon src="res/android/icon/6ce0013760809530c918a2f8cb200f0e.png" density="xxhdpi" />
+        <icon src="res/android/icon/b281bab49a14bc7a4c852d8825cf292d.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/11ad6d562112399db7b9e78edaa095dd.png" density="port-hdpi"/>
-        <splash src="res/android/screen/c5553c2f815f2371c4a0b76b5f029868.png" density="port-ldpi"/>
-        <splash src="res/android/screen/4cd55c065a38796bea2f80c49c222210.png" density="port-mdpi"/>
-        <splash src="res/android/screen/0787803dd8e4254d18396f3fa451b89f.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/e757cefa2aa28ec6f327ef9a404c3b25.png" density="port-hdpi"/>
+        <splash src="res/android/screen/721b0a6623b0848af6909aa32ef9dd5f.png" density="port-ldpi"/>
+        <splash src="res/android/screen/1a71fad02de218f3143c86d2033d6156.png" density="port-mdpi"/>
+        <splash src="res/android/screen/b30ddc5fcc8be91884070d23c5b8f340.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
